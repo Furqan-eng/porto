@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Furqan — Creative Developer</title>
+    <meta
+      name="description"
+      content="Furqan — informatics student and creative developer building web systems, interfaces, and network tools from Aceh, Indonesia."
+    />
+    <meta name="author" content="Furqan" />
+    <meta name="theme-color" content="#0B0B0A" />
+    <meta name="color-scheme" content="dark" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Furqan — Creative Developer" />
+    <meta
+      property="og:description"
+      content="Web systems, interfaces, and network tools — built with intent."
+    />
+    <meta property="og:image" content="assets/images/profile.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Furqan — Creative Developer" />
+    <meta
+      name="twitter:description"
+      content="Web systems, interfaces, and network tools — built with intent."
+    />
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="cursor" aria-hidden="true">
+      <div class="cursor__dot"></div>
+      <div class="cursor__label"><span class="cursor__text">View</span> ↗</div>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true">
+      <div class="scroll-progress__bar"></div>
+    </div>
+
+    <div class="side-rail side-rail--left" aria-hidden="true">
+      <span>Portfolio / <span data-rail-year>2026</span></span>
+      <span class="label__rule"></span>
+      <span class="side-rail__section" data-rail-section>01 — Index</span>
+    </div>
+    <div class="side-rail side-rail--right" aria-hidden="true">
+      <span>Aceh / Indonesia</span>
+      <span class="label__rule"></span>
+      <span>Furqan — Creative Developer</span>
+    </div>
+
+    <header class="nav" id="nav">
+      <a class="nav__brand" href="#home" data-cursor="Top">FQ<sup>®</sup></a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="#work" data-cursor="Go">Work</a>
+        <a class="nav__link" href="#about" data-cursor="Go">About</a>
+        <a class="nav__link" href="#stack" data-cursor="Go">Stack</a>
+        <a class="nav__link" href="#contact" data-cursor="Go">Contact</a>
+      </nav>
+
+      <div class="nav__meta" aria-hidden="true">
+        <span class="nav__meta-dot"></span>
+        <span>Aceh, ID</span>
+        <span id="local-time">--:--</span>
+      </div>
+
+      <button
+        class="nav__toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="nav__toggle-bars" aria-hidden="true">
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+    </header>
+
+    <div class="menu" id="mobile-menu" hidden>
+      <ul class="menu__list">
+        <li>
+          <a class="menu__link" href="#work"><span>01</span> Work</a>
+        </li>
+        <li>
+          <a class="menu__link" href="#systems"><span>02</span> Systems</a>
+        </li>
+        <li>
+          <a class="menu__link" href="#about"><span>03</span> About</a>
+        </li>
+        <li>
+          <a class="menu__link" href="#stack"><span>04</span> Stack</a>
+        </li>
+        <li>
+          <a class="menu__link" href="#playground"><span>05</span> Lab</a>
+        </li>
+        <li>
+          <a class="menu__link" href="#contact"><span>06</span> Contact</a>
+        </li>
+      </ul>
+      <div class="menu__footer">
+        <span>Aceh, Indonesia</span>
+        <a href="mailto:muhammadfurqanhusen@gmail.com">Email</a>
+        <a
+          href="https://github.com/Furqan-eng"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+        <a
+          href="https://www.instagram.com/furqan_h0/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- 01 HERO -->
+      <section
+        class="hero"
+        id="home"
+        data-section="01 — Index"
+        aria-label="Introduction"
+      >
+        <div class="hero__grid" aria-hidden="true"></div>
+
+        <div class="hero__corner hero__corner--tl" data-reveal>
+          Portfolio / <span data-rail-year>2026</span>
+          <strong>Creative Developer</strong>
+        </div>
+        <div class="hero__corner hero__corner--tr" data-reveal>
+          Building digital systems
+          <strong>Web · UI · Network</strong>
+        </div>
+        <div class="hero__corner hero__corner--bl" data-reveal>
+          Based in
+          <strong>Aceh — Indonesia</strong>
+        </div>
+
+        <div class="hero__layout">
+          <div class="hero__content">
+            <p class="label hero__eyebrow" data-reveal>
+              <span class="label__index">01</span>
+              Informatics · Full-Stack · UI Systems
+            </p>
+
+            <h1 class="hero__title" aria-label="Furqan">
+              <span class="line-mask" data-hero-line
+                ><span>Furqan</span></span
+              >
+            </h1>
+
+            <p class="hero__subtitle" data-reveal>
+              Creative developer &amp;<br />
+              <em>system builder</em>
+            </p>
+
+            <div class="hero__status" data-reveal>
+              <span class="hero__status-item">Available for selected projects</span>
+              <span class="hero__status-item hero__status-item--muted"
+                >Informatics student</span
+              >
+              <span class="hero__status-item hero__status-item--muted"
+                >Almuslim University</span
+              >
+            </div>
+
+            <div class="hero__bottom">
+              <p class="hero__desc" data-reveal>
+                I design and build web platforms — ISP billing, product
+                interfaces, school systems, and the infrastructure underneath
+                them. Bias for clarity over noise; systems that survive real
+                use.
+              </p>
+
+              <div class="hero__actions" data-reveal>
+                <a
+                  class="hero__cta"
+                  href="#work"
+                  data-cursor="Work"
+                  data-magnetic
+                >
+                  Selected Work <span class="arrow" aria-hidden="true">↘</span>
+                </a>
+                <a class="hero__link" href="#contact" data-cursor="Talk"
+                  >Start a project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__portrait" data-reveal data-portrait>
+            <div class="hero__portrait-frame">
+              <img
+                class="hero__portrait-img"
+                src="assets/images/profile.png"
+                alt="Portrait of Furqan"
+                width="800"
+                height="1067"
+                fetchpriority="high"
+                decoding="async"
+              />
+              <div class="hero__portrait-overlay" aria-hidden="true"></div>
+              <div class="hero__portrait-caption" aria-hidden="true">
+                <span>FQ® / 2026</span>
+                <span>Bireuen</span>
+              </div>
+            </div>
+            <div class="hero__portrait-meta">
+              <div>
+                Focus
+                <strong>Web Systems / UI</strong>
+              </div>
+              <div>
+                Based in
+                <strong>Bireuen, Aceh</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__scroll" aria-hidden="true">
+          <span>Scroll to explore</span>
+          <span class="hero__scroll-line"></span>
+        </div>
+      </section>
+
+      <!-- 02 CURRENTLY -->
+      <section
+        class="currently"
+        id="currently"
+        data-section="02 — Currently"
+        aria-labelledby="currently-title"
+      >
+        <div class="currently__inner">
+          <div class="currently__head">
+            <div>
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">02</span>
+                Currently
+              </p>
+              <h2 class="currently__title" id="currently-title" data-reveal>
+                What I’m on right now
+              </h2>
+            </div>
+            <p class="label" data-reveal>
+              Updated <span data-rail-year>2026</span>
+              <span class="label__rule"></span>
+              Aceh — ID
+            </p>
+          </div>
+
+          <div class="currently__grid">
+            <div class="currently__item" data-reveal>
+              <span class="currently__k">Building</span>
+              <h3 class="currently__v">DigiRadius</h3>
+              <p class="currently__n">
+                ISP billing &amp; network operations platform — RADIUS,
+                customers, payments, monitoring.
+              </p>
+            </div>
+            <div class="currently__item" data-reveal>
+              <span class="currently__k">Exploring</span>
+              <h3 class="currently__v">Network systems &amp; UI engineering</h3>
+              <p class="currently__n">
+                FreeRADIUS workflows, interface systems, and automation around
+                operational tools.
+              </p>
+            </div>
+            <div class="currently__item" data-reveal>
+              <span class="currently__k">Studying</span>
+              <h3 class="currently__v">Informatics</h3>
+              <p class="currently__n">
+                Faculty of Computer Science, Almuslim University — active
+                student since 2023.
+              </p>
+            </div>
+            <div class="currently__item" data-reveal>
+              <span class="currently__k">Location</span>
+              <h3 class="currently__v">Aceh, Indonesia</h3>
+              <p class="currently__n">
+                Bireuen · WIB (UTC+7) · open to remote collaboration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 SELECTED WORK -->
+      <section
+        class="section section--work work"
+        id="work"
+        data-section="03 — Work"
+        aria-labelledby="work-title"
+      >
+        <div class="section__grid" aria-hidden="true"></div>
+        <div class="section__bg-type" data-bg-type aria-hidden="true">WORK</div>
+        <div class="section__inner">
+          <header class="section__header">
+            <div>
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">03</span>
+                Selected Work
+              </p>
+              <h2 class="section__title" id="work-title" data-reveal>
+                Case notes
+              </h2>
+            </div>
+            <div class="section__header-meta" data-reveal>
+              <span>Systems in active build</span>
+              <span>ISP ops · School systems</span>
+              <span>2025 — 2026</span>
+            </div>
+          </header>
+
+          <!-- DigiRadius -->
+          <article class="project" data-cursor="View" data-reveal>
+            <div class="project__info">
+              <div class="project__index" aria-hidden="true">01</div>
+              <p class="project__category">
+                ISP Billing / Network Management Platform
+              </p>
+              <h3 class="project__name">DigiRadius</h3>
+              <p class="project__tagline">
+                Operations software for small ISPs — not another admin template.
+              </p>
+              <p class="project__desc">
+                An ISP operations platform combining customer management,
+                billing, RADIUS authentication, monitoring, and payment
+                workflows. Built to replace fragmented spreadsheet processes
+                with one system operators can run day-to-day.
+              </p>
+
+              <dl class="project__meta">
+                <div>
+                  <dt>Role</dt>
+                  <dd>Full-Stack Development</dd>
+                </div>
+                <div>
+                  <dt>Year</dt>
+                  <dd>2026</dd>
+                </div>
+                <div>
+                  <dt>Category</dt>
+                  <dd>ISP Ops Platform</dd>
+                </div>
+                <div>
+                  <dt>Domain</dt>
+                  <dd>Networking / Billing</dd>
+                </div>
+              </dl>
+
+              <div class="project__areas">
+                <p class="project__areas-label">Key areas</p>
+                <ul class="project__areas-list">
+                  <li>Billing</li>
+                  <li>Customer management</li>
+                  <li>Router / NAS management</li>
+                  <li>Network monitoring</li>
+                  <li>Payment flow</li>
+                  <li>Ticketing</li>
+                </ul>
+              </div>
+
+              <div class="project__features" aria-label="System focus">
+                <div class="project__feature">
+                  <span class="project__feature-k">System</span>
+                  <span class="project__feature-v">Billing</span>
+                </div>
+                <div class="project__feature">
+                  <span class="project__feature-k">Network</span>
+                  <span class="project__feature-v">RADIUS</span>
+                </div>
+                <div class="project__feature">
+                  <span class="project__feature-k">Ops</span>
+                  <span class="project__feature-v">Monitoring</span>
+                </div>
+              </div>
+
+              <ul class="project__stack" aria-label="Technology stack">
+                <li>CodeIgniter 4</li>
+                <li>PHP</li>
+                <li>MariaDB</li>
+                <li>FreeRADIUS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <a
+                class="project__link"
+                href="https://github.com/Furqan-eng"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="Open"
+              >
+                View on GitHub <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <div class="project__media">
+              <div class="project__media-visual" data-project-visual>
+                <!-- Temporary concept visual — replace with real DigiRadius UI when ready -->
+                <img
+                  src="assets/images/projects/digiradius.jpg"
+                  alt="Concept visual representing an ISP operations and network monitoring dashboard"
+                  loading="lazy"
+                  decoding="async"
+                  width="1600"
+                  height="1100"
+                  onerror="this.closest('.project__media-visual').classList.add('is-fallback')"
+                />
+                <div class="project__placeholder">
+                  <div class="project__placeholder-top">
+                    <span>Project Visual</span>
+                    <span>2026</span>
+                  </div>
+                  <div>
+                    <p class="project__placeholder-name">DigiRadius</p>
+                    <p class="project__placeholder-hint">
+                      Project visual coming soon
+                    </p>
+                    <p class="project__placeholder-hint">
+                      assets/images/projects/digiradius.jpg
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="project__media-chrome" aria-hidden="true">
+                <i></i><i></i><i></i>
+                <span>DigiRadius · concept</span>
+              </div>
+              <div class="project__media-tag">Concept visual</div>
+              <div class="project__media-hover" aria-hidden="true">
+                <div class="project__media-hover-meta">
+                  <strong>CI4 · FreeRADIUS · MariaDB</strong>
+                  Billing · Auth · Monitoring
+                </div>
+                <span class="project__media-hover-cta">View case ↗</span>
+              </div>
+              <div class="project__media-frame" aria-hidden="true"></div>
+            </div>
+          </article>
+
+          <!-- QRify -->
+          <article class="project project--reverse" data-cursor="View" data-reveal>
+            <div class="project__info">
+              <div class="project__index" aria-hidden="true">02</div>
+              <p class="project__category">
+                School Management / Attendance System
+              </p>
+              <h3 class="project__name">QRify</h3>
+              <p class="project__tagline">
+                Attendance and school operations without the paper trail.
+              </p>
+              <p class="project__desc">
+                A web-based school management system centered on QR attendance.
+                Multi-tenant structure for student data, rosters, reports,
+                announcements, and SPP / payment tracking — built as a practical
+                application, not a slideware demo.
+              </p>
+
+              <dl class="project__meta">
+                <div>
+                  <dt>Role</dt>
+                  <dd>Web Application Development</dd>
+                </div>
+                <div>
+                  <dt>Year</dt>
+                  <dd>2025</dd>
+                </div>
+                <div>
+                  <dt>Category</dt>
+                  <dd>School Systems</dd>
+                </div>
+                <div>
+                  <dt>Domain</dt>
+                  <dd>Education / Ops</dd>
+                </div>
+              </dl>
+
+              <div class="project__areas">
+                <p class="project__areas-label">Key areas</p>
+                <ul class="project__areas-list">
+                  <li>QR attendance</li>
+                  <li>Multi-tenant</li>
+                  <li>Student management</li>
+                  <li>Roster</li>
+                  <li>Reports</li>
+                  <li>Announcements</li>
+                  <li>SPP / payment</li>
+                </ul>
+              </div>
+
+              <div class="project__features" aria-label="System focus">
+                <div class="project__feature">
+                  <span class="project__feature-k">Flow</span>
+                  <span class="project__feature-v">QR Attendance</span>
+                </div>
+                <div class="project__feature">
+                  <span class="project__feature-k">Data</span>
+                  <span class="project__feature-v">Multi-tenant</span>
+                </div>
+                <div class="project__feature">
+                  <span class="project__feature-k">Admin</span>
+                  <span class="project__feature-v">SPP Flow</span>
+                </div>
+              </div>
+
+              <ul class="project__stack" aria-label="Technology stack">
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>QR / Mobile Web</li>
+              </ul>
+
+              <a
+                class="project__link"
+                href="https://github.com/Furqan-eng"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="Open"
+              >
+                View on GitHub <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <div class="project__media">
+              <div class="project__media-visual" data-project-visual>
+                <!-- Temporary concept visual — replace with real QRify UI when ready -->
+                <img
+                  src="assets/images/projects/qrify.jpg"
+                  alt="Concept visual representing a school management and attendance admin dashboard"
+                  loading="lazy"
+                  decoding="async"
+                  width="1600"
+                  height="1100"
+                  onerror="this.closest('.project__media-visual').classList.add('is-fallback')"
+                />
+                <div class="project__placeholder">
+                  <div class="project__placeholder-top">
+                    <span>Project Visual</span>
+                    <span>2025</span>
+                  </div>
+                  <div>
+                    <p class="project__placeholder-name">QRify</p>
+                    <p class="project__placeholder-hint">
+                      Project visual coming soon
+                    </p>
+                    <p class="project__placeholder-hint">
+                      assets/images/projects/qrify.jpg
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="project__media-chrome" aria-hidden="true">
+                <i></i><i></i><i></i>
+                <span>QRify · concept</span>
+              </div>
+              <div class="project__media-tag">Concept visual</div>
+              <div class="project__media-hover" aria-hidden="true">
+                <div class="project__media-hover-meta">
+                  <strong>PHP · MySQL · QR</strong>
+                  Attendance · Roster · SPP
+                </div>
+                <span class="project__media-hover-cta">View case ↗</span>
+              </div>
+              <div class="project__media-frame" aria-hidden="true"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- MARQUEE -->
+      <section class="marquee-section" aria-label="Technologies">
+        <p class="label label--accent">
+          <span class="label__index">//</span> Stack in rotation
+        </p>
+        <div class="marquee" data-marquee>
+          <div class="marquee__track">
+            <div class="marquee__group">
+              <span class="marquee__item">HTML</span>
+              <span class="marquee__item marquee__item--dim">CSS</span>
+              <span class="marquee__item">JavaScript</span>
+              <span class="marquee__item marquee__item--dim">PHP</span>
+              <span class="marquee__item">CodeIgniter</span>
+              <span class="marquee__item marquee__item--dim">MariaDB</span>
+              <span class="marquee__item">MySQL</span>
+              <span class="marquee__item marquee__item--dim">FreeRADIUS</span>
+              <span class="marquee__item">Git</span>
+              <span class="marquee__item marquee__item--dim">Figma</span>
+              <span class="marquee__item">UI / UX</span>
+              <span class="marquee__item marquee__item--dim">Web Design</span>
+            </div>
+            <div class="marquee__group" aria-hidden="true">
+              <span class="marquee__item">HTML</span>
+              <span class="marquee__item marquee__item--dim">CSS</span>
+              <span class="marquee__item">JavaScript</span>
+              <span class="marquee__item marquee__item--dim">PHP</span>
+              <span class="marquee__item">CodeIgniter</span>
+              <span class="marquee__item marquee__item--dim">MariaDB</span>
+              <span class="marquee__item">MySQL</span>
+              <span class="marquee__item marquee__item--dim">FreeRADIUS</span>
+              <span class="marquee__item">Git</span>
+              <span class="marquee__item marquee__item--dim">Figma</span>
+              <span class="marquee__item">UI / UX</span>
+              <span class="marquee__item marquee__item--dim">Web Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 MORE SYSTEMS -->
+      <section
+        class="section"
+        id="systems"
+        data-section="04 — Systems"
+        aria-labelledby="systems-title"
+      >
+        <div class="section__grid" aria-hidden="true"></div>
+        <div class="section__inner">
+          <header class="section__header">
+            <div>
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">04</span>
+                Systems &amp; Work
+              </p>
+              <h2 class="section__title" id="systems-title" data-reveal>
+                Also on the bench
+              </h2>
+            </div>
+            <div class="section__header-meta" data-reveal>
+              <span>Broader map</span>
+              <span>Beyond the two case studies</span>
+            </div>
+          </header>
+
+          <div class="systems-list">
+            <div class="system-row" data-reveal>
+              <span class="system-row__num">01</span>
+              <h3 class="system-row__name">Web applications</h3>
+              <p class="system-row__type">
+                PHP · CodeIgniter · MySQL · JavaScript
+              </p>
+              <p class="system-row__meta">Product &amp; admin flows</p>
+            </div>
+            <div class="system-row" data-reveal>
+              <span class="system-row__num">02</span>
+              <h3 class="system-row__name">ISP / network tooling</h3>
+              <p class="system-row__type">
+                FreeRADIUS · MariaDB · Ops dashboards
+              </p>
+              <p class="system-row__meta">Billing · Auth · Monitoring</p>
+            </div>
+            <div class="system-row" data-reveal>
+              <span class="system-row__num">03</span>
+              <h3 class="system-row__name">School / attendance systems</h3>
+              <p class="system-row__type">
+                QR flows · Multi-tenant data · Reports
+              </p>
+              <p class="system-row__meta">Education operations</p>
+            </div>
+            <div class="system-row" data-reveal>
+              <span class="system-row__num">04</span>
+              <h3 class="system-row__name">UI implementation &amp; design</h3>
+              <p class="system-row__type">Figma · HTML/CSS · Interaction</p>
+              <p class="system-row__meta">From layout to shipped UI</p>
+            </div>
+            <div class="system-row" data-reveal>
+              <span class="system-row__num">05</span>
+              <h3 class="system-row__name">Hardware / network experiments</h3>
+              <p class="system-row__type">
+                Arduino · Linux · RADIUS configs
+              </p>
+              <p class="system-row__meta">Lab work · side builds</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05 ABOUT -->
+      <section
+        class="section section--about about"
+        id="about"
+        data-section="05 — About"
+        aria-labelledby="about-title"
+      >
+        <div class="section__grid" aria-hidden="true"></div>
+        <div class="section__bg-type section__bg-type--fill" data-bg-type aria-hidden="true">
+          BUILD
+        </div>
+        <div class="section__inner">
+          <div class="about__layout">
+            <div class="about__statement">
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">05</span>
+                About
+              </p>
+              <h2 class="about__statement-title" id="about-title" data-reveal>
+                I build systems<br />
+                beyond the<br />
+                interface.
+                <span class="serif-accent"
+                  >Code is only half the job.</span
+                >
+              </h2>
+            </div>
+
+            <div class="about__body">
+              <p data-reveal>
+                I’m <strong>Furqan</strong>, an active Informatics student at
+                <strong>Almuslim University</strong>, Faculty of Computer
+                Science. I care about work that touches real infrastructure —
+                billing, attendance, authentication, operations — not just
+                pages that look finished in a mockup.
+              </p>
+              <p data-reveal>
+                Most of my time sits between three layers: the
+                <strong>system</strong> (how data, auth, and modules connect),
+                the <strong>interface</strong> (how people actually operate
+                that system), and the <strong>network</strong> underneath
+                (RADIUS, NAS, monitoring) when the product depends on it.
+              </p>
+              <p data-reveal>
+                Coursework gives me the foundation. Projects like
+                <strong>DigiRadius</strong> and <strong>QRify</strong> force the
+                harder questions: what breaks at scale, what operators ignore,
+                what a screen has to answer in five seconds. I treat those
+                questions as design work, not afterthoughts.
+              </p>
+
+              <div class="about__block">
+                <div class="about__block-title">
+                  <p class="label label--accent" data-reveal>
+                    <span class="label__index">//</span> How I work
+                  </p>
+                </div>
+                <div class="principles">
+                  <div class="principle" data-reveal>
+                    <span class="principle__num">01</span>
+                    <h3 class="principle__name">Solve the system first</h3>
+                  </div>
+                  <div class="principle" data-reveal>
+                    <span class="principle__num">02</span>
+                    <h3 class="principle__name">Keep interfaces clear</h3>
+                  </div>
+                  <div class="principle" data-reveal>
+                    <span class="principle__num">03</span>
+                    <h3 class="principle__name">Build for real use</h3>
+                  </div>
+                  <div class="principle" data-reveal>
+                    <span class="principle__num">04</span>
+                    <h3 class="principle__name">Iterate from feedback</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about__block">
+                <div class="about__block-title">
+                  <p class="label label--accent" data-reveal>
+                    <span class="label__index">//</span> Capabilities
+                  </p>
+                </div>
+                <div class="capabilities">
+                  <div class="capability" data-reveal>
+                    <span class="capability__num">01</span>
+                    <div>
+                      <h3 class="capability__name">Web Development</h3>
+                      <p class="capability__note">
+                        Front-end structure, back-end logic, and full
+                        application flows in PHP / CodeIgniter and vanilla JS.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="capability" data-reveal>
+                    <span class="capability__num">02</span>
+                    <div>
+                      <h3 class="capability__name">System Architecture</h3>
+                      <p class="capability__note">
+                        How data, auth, and modules connect — from RADIUS-backed
+                        ISP platforms to multi-table product apps.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="capability" data-reveal>
+                    <span class="capability__num">03</span>
+                    <div>
+                      <h3 class="capability__name">UI / UX Design</h3>
+                      <p class="capability__note">
+                        Interfaces that stay legible under real workflows. Figma
+                        for layout, HTML/CSS for the final build.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="capability" data-reveal>
+                    <span class="capability__num">04</span>
+                    <div>
+                      <h3 class="capability__name">Network Systems</h3>
+                      <p class="capability__note">
+                        FreeRADIUS, ISP operations tooling, and the glue
+                        between network state and business logic.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 STACK -->
+      <section
+        class="section"
+        id="stack"
+        data-section="06 — Stack"
+        aria-labelledby="stack-title"
+      >
+        <div class="section__grid" aria-hidden="true"></div>
+        <div class="section__inner">
+          <header class="section__header">
+            <div>
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">06</span>
+                Tech / Stack
+              </p>
+              <h2 class="section__title" id="stack-title" data-reveal>
+                Tools in use
+              </h2>
+            </div>
+            <div class="section__header-meta" data-reveal>
+              <span>Practical daily stack</span>
+              <span>Not a logo wall</span>
+            </div>
+          </header>
+
+          <div class="stack-grid">
+            <div class="stack-col" data-reveal>
+              <span class="stack-col__k">Frontend</span>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="stack-col" data-reveal>
+              <span class="stack-col__k">Backend</span>
+              <ul>
+                <li>PHP</li>
+                <li>CodeIgniter</li>
+              </ul>
+            </div>
+            <div class="stack-col" data-reveal>
+              <span class="stack-col__k">Database</span>
+              <ul>
+                <li>MySQL</li>
+                <li>MariaDB</li>
+              </ul>
+            </div>
+            <div class="stack-col" data-reveal>
+              <span class="stack-col__k">Infrastructure</span>
+              <ul>
+                <li>Linux</li>
+                <li>Apache</li>
+                <li>FreeRADIUS</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="toolbox">
+            <div class="toolbox__head">
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">//</span> Toolbox
+              </p>
+              <p class="label" data-reveal>How the work gets done</p>
+            </div>
+            <div class="toolbox__grid">
+              <div class="toolbox-item" data-reveal>
+                <span class="toolbox-item__k">Code</span>
+                <span class="toolbox-item__v">VS Code</span>
+              </div>
+              <div class="toolbox-item" data-reveal>
+                <span class="toolbox-item__k">Design</span>
+                <span class="toolbox-item__v">Figma</span>
+              </div>
+              <div class="toolbox-item" data-reveal>
+                <span class="toolbox-item__k">Version control</span>
+                <span class="toolbox-item__v">Git</span>
+              </div>
+              <div class="toolbox-item" data-reveal>
+                <span class="toolbox-item__k">Server</span>
+                <span class="toolbox-item__v">Linux</span>
+              </div>
+              <div class="toolbox-item" data-reveal>
+                <span class="toolbox-item__k">Database</span>
+                <span class="toolbox-item__v">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 07 JOURNEY + EDUCATION -->
+      <section
+        class="section journey"
+        id="journey"
+        data-section="07 — Journey"
+        aria-labelledby="journey-title"
+      >
+        <div class="section__grid" aria-hidden="true"></div>
+        <div class="section__inner">
+          <header class="section__header">
+            <div>
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">07</span>
+                Journey
+              </p>
+              <h2 class="section__title" id="journey-title" data-reveal>
+                How I got here
+              </h2>
+            </div>
+            <div class="section__header-meta" data-reveal>
+              <span>Only verified milestones</span>
+              <span>2023 — present</span>
+            </div>
+          </header>
+
+          <div class="journey-list">
+            <div class="journey-item" data-reveal>
+              <div class="journey-item__year">2023</div>
+              <div class="journey-item__body">
+                <h3 class="journey-item__title">
+                  Started Informatics studies
+                </h3>
+                <p class="journey-item__text">
+                  Entered the Informatics Study Program, Faculty of Computer
+                  Science, Almuslim University — the base layer for everything
+                  that followed.
+                </p>
+              </div>
+            </div>
+
+            <div class="journey-item" data-reveal>
+              <div class="journey-item__year">2025</div>
+              <div class="journey-item__body">
+                <h3 class="journey-item__title">
+                  Expanded into web apps &amp; UI systems
+                </h3>
+                <p class="journey-item__text">
+                  Shifted focus toward practical web development and interface
+                  design — building applications like QRify and deepening work
+                  on HTML, CSS, JavaScript, PHP, and Figma.
+                </p>
+              </div>
+            </div>
+
+            <div class="journey-item" data-reveal>
+              <div class="journey-item__year">2026</div>
+              <div class="journey-item__body">
+                <h3 class="journey-item__title">
+                  Building larger operational systems
+                </h3>
+                <p class="journey-item__text">
+                  DigiRadius — an ISP billing and network management platform
+                  combining RADIUS authentication, customer data, payments, and
+                  monitoring into one operations view.
+                </p>
+              </div>
+            </div>
+
+            <div class="journey-item" data-reveal>
+              <div class="journey-item__year">Now</div>
+              <div class="journey-item__body">
+                <h3 class="journey-item__title">
+                  Education — Almuslim University
+                </h3>
+                <p class="journey-item__text">
+                  Faculty of Computer Science · Informatics Study Program ·
+                  Active student since 2023. Still building in parallel —
+                  coursework on one side, live systems on the other.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 08 PLAYGROUND -->
+      <section
+        class="section section--lab playground"
+        id="playground"
+        data-section="08 — Lab"
+        aria-labelledby="lab-title"
+      >
+        <div class="section__grid" aria-hidden="true"></div>
+        <div class="section__bg-type" data-bg-type aria-hidden="true">LAB</div>
+        <div class="section__inner">
+          <header class="section__header">
+            <div>
+              <p class="label label--accent" data-reveal>
+                <span class="label__index">08</span>
+                Playground
+              </p>
+              <h2 class="section__title" id="lab-title" data-reveal>
+                Lab notes
+              </h2>
+            </div>
+            <div class="section__header-meta" data-reveal>
+              <span>Experiments &amp; side work</span>
+              <span>No product brief required</span>
+            </div>
+          </header>
+
+          <div class="playground__grid">
+            <article class="play-card" data-exp="01" data-reveal>
+              <span class="play-card__num">Experiment 001</span>
+              <span class="play-card__arrow" aria-hidden="true">↗</span>
+              <h3 class="play-card__title">RADIUS session work</h3>
+              <p class="play-card__text">
+                FreeRADIUS configuration drills — authentication flows, session
+                tracking, and how ISP billing actually hooks into the network
+                layer. The unglamorous half of every DigiRadius decision.
+              </p>
+              <ul class="play-card__tags">
+                <li>FreeRADIUS</li>
+                <li>Networking</li>
+                <li>Linux</li>
+              </ul>
+            </article>
+
+            <article class="play-card" data-exp="02" data-reveal>
+              <span class="play-card__num">Experiment 002</span>
+              <span class="play-card__arrow" aria-hidden="true">↗</span>
+              <h3 class="play-card__title">Hardware / Arduino</h3>
+              <p class="play-card__text">
+                Sensor and microcontroller side-quests — learning how physical
+                systems talk to software, one sketch at a time.
+              </p>
+              <ul class="play-card__tags">
+                <li>Arduino</li>
+                <li>Sensors</li>
+                <li>C++</li>
+              </ul>
+            </article>
+
+            <article class="play-card" data-exp="03" data-reveal>
+              <span class="play-card__num">Experiment 003</span>
+              <span class="play-card__arrow" aria-hidden="true">↗</span>
+              <h3 class="play-card__title">UI system prototypes</h3>
+              <p class="play-card__text">
+                Isolated interaction studies — layout systems, motion
+                experiments, and interface patterns stripped down to one idea
+                before they earn a place in a real app.
+              </p>
+              <ul class="play-card__tags">
+                <li>UI</li>
+                <li>Motion</li>
+                <li>Prototype</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 09 CONTACT -->
+      <section
+        class="section section--contact contact"
+        id="contact"
+        data-section="09 — Contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="section__grid" aria-hidden="true"></div>
+        <div class="section__bg-type" data-bg-type aria-hidden="true">
+          CONTACT
+        </div>
+        <div class="section__inner">
+          <p class="label label--accent" data-reveal>
+            <span class="label__index">09</span>
+            Contact
+          </p>
+
+          <div class="contact__layout">
+            <div>
+              <h2 class="contact__cta" id="contact-title" data-reveal>
+                Have an idea?<br />
+                Let’s build<br />
+                <span class="serif-accent">something.</span>
+              </h2>
+              <p class="contact__intro" data-reveal>
+                Open to internships, collaborations, and projects where the
+                engineering matters as much as the interface. If that sounds
+                like your problem — write.
+              </p>
+
+              <div class="contact__available" data-reveal>
+                <p class="label label--accent contact__available-k">
+                  Available for
+                </p>
+                <ul class="contact__available-list">
+                  <li>
+                    <span>01</span>
+                    <span>Web development</span>
+                  </li>
+                  <li>
+                    <span>02</span>
+                    <span>UI implementation</span>
+                  </li>
+                  <li>
+                    <span>03</span>
+                    <span>System development</span>
+                  </li>
+                  <li>
+                    <span>04</span>
+                    <span>Technical collaboration</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="contact__links">
+              <a
+                class="contact-link"
+                href="mailto:muhammadfurqanhusen@gmail.com"
+                data-cursor="Email"
+                data-reveal
+              >
+                <span class="contact-link__label">Email</span>
+                <span class="contact-link__value"
+                  >muhammadfurqanhusen@gmail.com</span
+                >
+                <span class="contact-link__arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a
+                class="contact-link"
+                href="https://wa.me/6281262258302"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="Chat"
+                data-reveal
+              >
+                <span class="contact-link__label">WhatsApp</span>
+                <span class="contact-link__value">+62 812-6225-8302</span>
+                <span class="contact-link__arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a
+                class="contact-link"
+                href="https://github.com/Furqan-eng"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="Open"
+                data-reveal
+              >
+                <span class="contact-link__label">GitHub</span>
+                <span class="contact-link__value">github.com/Furqan-eng</span>
+                <span class="contact-link__arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a
+                class="contact-link"
+                href="https://www.instagram.com/furqan_h0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="Open"
+                data-reveal
+              >
+                <span class="contact-link__label">Instagram</span>
+                <span class="contact-link__value">@furqan_h0</span>
+                <span class="contact-link__arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <p class="contact__note" data-reveal>
+                Bireuen, Aceh · WIB (UTC+7) · Remote-friendly
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div>
+          <span class="footer__block-k">Name</span>
+          <p class="footer__copy">
+            Furqan © <span id="year">2026</span>
+          </p>
+        </div>
+        <div>
+          <span class="footer__block-k">Focus</span>
+          <p class="footer__built">Informatics / Web / Systems</p>
+        </div>
+        <div>
+          <span class="footer__block-k">Location</span>
+          <p class="footer__place">Aceh, Indonesia</p>
+          <p class="footer__time">
+            Local time <span id="footer-time">--:--</span> WIB
+          </p>
+        </div>
+        <div>
+          <span class="footer__block-k">Elsewhere</span>
+          <div class="footer__socials">
+            <a
+              href="https://github.com/Furqan-eng"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://www.instagram.com/furqan_h0/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a href="mailto:muhammadfurqanhusen@gmail.com">Email</a>
+          </div>
+          <a class="footer__back" href="#home" data-cursor="Top">
+            Back to top <span class="arrow" aria-hidden="true">↑</span>
+          </a>
+          <p class="footer__built" style="margin-top: 0.85rem">
+            Designed &amp; built by Furqan
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"
+      defer
+    ></script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
