@@ -89,6 +89,7 @@
     if (!nav || !menu || !navToggle) return;
     menuOpen = open;
     nav.classList.toggle("is-open", open);
+    body.classList.toggle("menu-open", open);
     navToggle.setAttribute("aria-expanded", open ? "true" : "false");
     navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     body.style.overflow = open ? "hidden" : "";

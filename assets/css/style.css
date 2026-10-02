@@ -523,7 +523,8 @@ body.has-cursor button {
 .menu {
   position: fixed;
   inset: 0;
-  z-index: 1001;
+  /* Below .nav (1000) so toggle stays clickable */
+  z-index: 999;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -535,10 +536,22 @@ body.has-cursor button {
   transition: opacity 0.4s var(--ease-out), visibility 0.4s;
 }
 
-.nav.is-open .menu {
+/* menu is a sibling of .nav, not a child — use ~ not descendant */
+.nav.is-open ~ .menu,
+body.menu-open .menu {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+/* Keep page scroll locked while menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Fallback if [hidden] is removed but class missing */
+.menu:not([hidden]) {
+  /* visibility still controlled by is-open rules above */
 }
 
 .menu__list {
@@ -894,12 +907,17 @@ body.has-cursor button {
   z-index: 2;
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
-  gap: clamp(2rem, 5vw, 4rem);
+  gap: clamp(1.5rem, 4vw, 3rem);
   align-items: end;
   width: 100%;
   max-width: var(--max);
   margin: 0 auto;
   padding-top: clamp(4rem, 10vh, 6rem);
+}
+
+.hero__content {
+  min-width: 0;
+  max-width: 100%;
 }
 
 .hero__eyebrow {
@@ -909,11 +927,20 @@ body.has-cursor button {
 .hero__title {
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(4.5rem, 16vw, 13.5rem);
-  line-height: 0.85;
-  letter-spacing: -0.045em;
+  /* Large but constrained — must not collide with portrait */
+  font-size: clamp(3.25rem, 10.5vw, 8.75rem);
+  line-height: 0.88;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   color: var(--ink);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.hero__title .line-mask {
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .hero__subtitle {
@@ -2681,7 +2708,12 @@ body.has-cursor button {
   }
 
   .hero__title {
-    font-size: clamp(3.4rem, 18vw, 5.5rem);
+    font-size: clamp(2.75rem, 14vw, 4.25rem);
+    letter-spacing: -0.035em;
+  }
+
+  .hero__layout {
+    gap: 1.25rem;
   }
 
   .hero__corner--tl {
